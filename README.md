@@ -41,9 +41,14 @@ LangGraph is a Python framework for designing and managing the flow of tasks in 
 
   - The notebook exercises our tools:
     ``` python
-    def add(a: int, b: int)
-    def subtract(a: int, b: int)
-    def mult(a: int, b: int)
+    def add(a: int, b: int) -> int:
+        return a + b
+
+    def subtract(a: int, b: int) -> int:
+        return a - b
+
+    def mult(a: int, b: int) -> int:
+        return a * b
     ``` 
     And demonstrates that the LLM will use the tools if they make sense, but will fall back on its training when the tools are of no use, for example to tell a joke: 
     ```
