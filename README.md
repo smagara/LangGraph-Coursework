@@ -49,6 +49,21 @@ LangGraph is a Python framework for designing and managing the flow of tasks in 
     ```
     Add 34 + 21.  Then multiply 12 by 22.  Also subtract 23 from 88 then tell a joke
     ```
+    Reply from the AI:
+    ```
+    Here are the results of your calculations:
+
+    1. 34 + 21 = 55
+    2. 12 * 22 = 264
+    3. 88 - 23 = 65
+
+    Now, here's a joke for you:
+
+    Why don’t scientists trust atoms? 
+
+    Because they make up everything!
+    ```
+
 
   - [📔 Display ReAct Agent Jupyter Notebook](https://github.com/smagara/LangGraph-Coursework/blob/main/langgraph_react_agent_tools.ipynb)
 </details>
